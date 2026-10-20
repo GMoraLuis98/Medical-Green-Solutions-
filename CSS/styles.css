@@ -68,7 +68,7 @@ header ul li a:hover {
     color: rgb(38, 255, 0);
 }
 
-#InicioSesion {
+.InicioSesion {
     width: 350px;
     margin: 100px auto;
     padding: 30px;
@@ -82,16 +82,16 @@ header ul li a:hover {
     gap: 10px;
 }
 
-#InicioSesion h1 {
+.InicioSesion h1 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-#InicioSesion label {
+.InicioSesion label {
     font-weight: bold;
 }
 
-#InicioSesion input {
+.InicioSesion input {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -152,4 +152,18 @@ header ul li a:hover {
     color: rgb(31, 157, 31);
     text-decoration: none;
     font-weight: bold;
+}
+
+#registroUsuario{
+ width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
