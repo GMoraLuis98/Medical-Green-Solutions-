@@ -169,8 +169,9 @@ if (edad > 18 && tienelicencia == true){
     console.log("edad"+edad);
   }while(edad<50)
 
+
 edad=10;
     while(edad<50){
         edad=edad+1;
         console.log("edasina"+ edad);
-    }
+    } 

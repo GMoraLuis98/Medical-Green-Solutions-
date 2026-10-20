@@ -1,7 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
 }
-
+/*menu de navegacion*/
 header {
     background-color: rgb(31, 157, 31);
     padding: 20px;
@@ -67,7 +67,10 @@ header ul li a:hover {
 #btnbuscar:hover {
     color: rgb(38, 255, 0);
 }
+/* fin menu de navegacion*/
 
+
+/* inicio de sesion*/
 .InicioSesion {
     width: 350px;
     margin: 100px auto;
@@ -98,6 +101,9 @@ header ul li a:hover {
     font-size: 16px;
 }
 
+/*fin de inicio de sesion */
+
+/*boton inicio de sesion*/
 #iniciar{
         font-family: Arial, sans-serif;
 
@@ -118,8 +124,9 @@ header ul li a:hover {
 #iniciar:hover{
     background-color: rgb(24, 120, 24);
 }
+/* fin de boton de inicio de sesion*/
 
-
+/*Boton de registrarse en Inicio de sesion*/
 #registrarse{
         font-family: Arial, sans-serif;
 
@@ -143,6 +150,7 @@ header ul li a:hover {
     background-color: rgb(24,120,24);
     
 }
+/*fin de boton*/
 
 #InicioSesion p {
     text-align: center;
@@ -154,8 +162,9 @@ header ul li a:hover {
     font-weight: bold;
 }
 
-#registroUsuario{
- width: 350px;
+
+.registroUsuario {
+     width: 350px;
     margin: 100px auto;
     padding: 30px;
 
@@ -167,3 +176,44 @@ header ul li a:hover {
     flex-direction: column;
     gap: 10px;
 }
+
+.registroUsuario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registroUsuario label {
+    font-weight: bold;
+}
+
+.registroUsuario input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#btnregistrar {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 12px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: rgb(31, 157, 31);
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btnregistrar:hover {
+    background-color: rgb(24, 120, 24);
+}
+
+
+/*fin de registro*/
